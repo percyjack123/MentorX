@@ -83,7 +83,7 @@ export function AppSidebar() {
             'h-4 w-4 transition-transform duration-200',
             collapsed && 'rotate-180'
           )} />
-          {!collapsed && <span className="ml-2">Collapse</span>}
+          {!collapsed && <span className="ml-2">Move</span>}
         </Button>
       </div>
     </aside>
