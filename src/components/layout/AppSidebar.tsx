@@ -37,7 +37,7 @@ export function AppSidebar() {
         {!collapsed && (
           <div className="ml-3 overflow-hidden">
             <h1 className="font-semibold text-lg text-sidebar-foreground tracking-tight">
-              Mentor X
+              MentorX
             </h1>
             <p className="text-xs text-sidebar-foreground/60">Professor OS</p>
           </div>
