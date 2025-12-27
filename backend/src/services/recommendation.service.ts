@@ -20,3 +20,39 @@ export function generateRecommendation(course: any) {
     suggestion: "No adjustment needed"
   };
 }
+export function getDifficultyRecommendation(course: any) {
+  const result = [];
+
+  for (const unit of course.units) {
+    let pending = 0;
+
+    for (const topic of unit.topics) {
+      if (topic.status === "Pending") {
+        pending++;
+      }
+    }
+
+    if (pending === 0) {
+      result.push({
+        unit: unit.unit,
+        difficulty: "Easy",
+        reason: "All topics are completed"
+      });
+    } else if (pending === 1) {
+      result.push({
+        unit: unit.unit,
+        difficulty: "Medium",
+        reason: "One topic is pending"
+      });
+    } else {
+      result.push({
+        unit: unit.unit,
+        difficulty: "Hard",
+        reason: "Multiple topics are pending"
+      });
+    }
+  }
+
+  return result;
+}
+
