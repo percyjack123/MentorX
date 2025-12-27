@@ -1,0 +1,23 @@
+{
+  "courseId": "DSA101",
+  "timeline": {
+    "plannedClasses": 10,
+    "completedClasses": 8
+  },
+  "units": [
+    {
+      "unit": "Unit 1",
+      "topics": [
+        { "name": "Arrays", "status": "Completed" },
+        { "name": "Linked Lists", "status": "Completed" }
+      ]
+    },
+    {
+      "unit": "Unit 2",
+      "topics": [
+        { "name": "Stacks", "status": "Completed" },
+        { "name": "Queues", "status": "Pending" }
+      ]
+    }
+  ]
+}

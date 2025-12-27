@@ -2,17 +2,17 @@ import type { Professor, Course, Unit, UpcomingClass, Alert, AIRecommendation, S
 
 export const professor: Professor = {
   id: 'prof-001',
-  name: 'Dr. Eleanor Mitchell',
+  name: 'Dr. Ajit Kumar Pasayat',
   title: 'Associate Professor',
   department: 'Computer Science',
-  email: 'e.mitchell@university.edu',
+  email: 'ajitkumar@university.edu',
 };
 
 export const course: Course = {
   id: 'course-001',
   code: 'CS301',
   name: 'Data Structures & Algorithms',
-  semester: 'Fall',
+  semester: 'Autumn',
   academicYear: '2024-25',
   credits: 4,
   totalWeeks: 14,

@@ -1,0 +1,10 @@
+{
+  "professorName": "Dr. Ananya Sharma",
+  "subject": "Data Structures",
+  "semester": "Semester 4",
+  "syllabusProgress": 65,
+  "upcomingClass": {
+    "topic": "Binary Trees",
+    "time": "Tomorrow, 10:00 AM"
+  }
+}
